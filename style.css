@@ -36,8 +36,20 @@ body {
     max-width: 460px;
 }
 
+@media screen and (min-width: 640px) {
+    .section-inner {
+        max-width: 550px;
+    }
+}
+
 .logo {
     width: 350px;
+}
+
+@media screen and (min-width: 640px) {
+    .logo {
+        width: 400px;
+    }
 }
 
 .introduction {
@@ -72,6 +84,16 @@ h1::after {
     margin-top: 10px;
 }
 
+@media screen and (min-width: 640px) {
+    .button {
+        display: inline-block;
+    }
+
+    .button + .button {
+        margin-left: 20px;
+    }
+}
+
 .button a {
     color: #FAFAFA;
     background-color: #407BFF;
@@ -102,6 +124,19 @@ h1::after {
     max-width: 460px;
 }
 
+@media screen and (min-width: 640px) {
+    .motto-icons {
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-evenly;
+        gap: 20px;
+        max-width: 100%;
+        padding: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
 .motto {
     display: flex;
     align-items: center;
@@ -113,8 +148,23 @@ h1::after {
 
 }
 
+@media screen and (min-width: 640px) {
+    .motto {
+        padding: 40px 15px 20px 15px;
+        display: block;
+        text-align: center;
+        flex: 0 1 100%;
+    }
+}
+
 .motto + .motto {
     margin-top: 15px;
+}
+
+@media screen and (min-width: 640px) {
+    .motto + .motto {
+        margin-top: 0;
+    }
 }
 
 .motto-text {
@@ -124,17 +174,25 @@ h1::after {
     text-align: left;
 }
 
+@media screen and (min-width: 640px) {
+    .motto-text {
+        text-align: center;
+    }
+}
+
 .icons {
     width: 40px;
 }
 
-
-/* CSS bokem - zkouška znovu
 @media screen and (min-width: 640px) {
     .icons {
         padding-bottom: 20px;
     }
 }
+
+
+/* CSS bokem - zkouška znovu
+
 
 @media screen and (min-width: 1100px) {
     .intro {
@@ -152,37 +210,11 @@ h1::after {
     }
 }
 
-@media screen and (min-width: 640px) {
-    .motto-text {
-        text-align: center;
-    }
-}
 
-@media screen and (min-width: 640px) {
-    .motto + .motto {
-        margin-top: 0;
-    }
-}
-@media screen and (min-width: 640px) {
-    .motto {
-        padding: 40px 15px 20px 15px;
-        display: block;
-        text-align: center;
-        flex: 0 0 33.33333%;
-    }
-}
-@media screen and (min-width: 640px) {
-    .motto-icons {
-        display: flex;
-        margin-top: 40px;
-        justify-content: space-evenly;
-        gap: 20px;
-        max-width: 100%;
-        padding: 0;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
+
+
+
+
 
 @media screen and (min-width: 1100px) {
     .motto-icons {
@@ -198,15 +230,7 @@ h1::after {
         display: block;
     }
 }
-@media screen and (min-width: 640px) {
-    .button {
-        display: inline-block;
-    }
 
-    .button + .button {
-        margin-left: 20px;
-    }
-}
 @media screen and (min-width: 1100px) {
     h1::after {
         margin: 10px 0 30px 0;
@@ -218,22 +242,14 @@ h1::after {
     }
 }
 
-@media screen and (min-width: 640px) {
-    .section-inner {
-        max-width: 550px;
-    }
-}
+
 
 @media screen and (min-width: 1100px) {
     .section-inner {
         margin: 0;
     }
 }
-@media screen and (min-width: 640px) {
-    .logo {
-        width: 400px;
-    }
-}
+
 
 @media screen and (min-width: 1100px) {
     .logo {
