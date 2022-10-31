@@ -27,8 +27,25 @@ body {
     padding: 0;
 }
 
+@media screen and (min-width: 1100px) {
+    .section {
+        max-width: 1040px;
+        margin: 0 auto;
+        display: flex;
+        gap: 60px;
+        text-align: left;
+        align-items: center;
+    }
+}
+
 .section + .section {
     margin-top: 60px;
+}
+
+@media screen and (min-width: 1100px) {
+    .section + .section {
+        margin-top: 80px;
+    }
 }
 
 .section-inner {
@@ -42,6 +59,19 @@ body {
     }
 }
 
+@media screen and (min-width: 1100px) {
+    .section-inner {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .header {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .logo {
     width: 350px;
 }
@@ -52,8 +82,22 @@ body {
     }
 }
 
+@media screen and (min-width: 1100px) {
+    .logo {
+        width: 425px;
+        margin: 0 auto;
+    }
+}
+
 .introduction {
     margin-top: 40px;
+}
+
+@media screen and (min-width: 1100px) {
+    .introduction {
+        max-width: 490px;
+        order: -1;
+    }
 }
 
 h1 {
@@ -74,6 +118,11 @@ h1::after {
     border: 0;
 }
 
+@media screen and (min-width: 1100px) {
+    h1::after {
+        margin: 10px 0 30px 0;
+    }
+}
 
 .button {
     margin-top: 30px;
@@ -111,6 +160,21 @@ h1::after {
     background-color: #8B8B8B;
 }
 
+@media screen and (min-width: 1100px) {
+    .text1, .text2 {
+        flex: 0 0 430px;
+    }
+
+    .text1 {
+        order: 2;
+    }
+
+    .mottos1, .mottos2 {
+        flex: 0 0 550px;
+    }
+
+}
+
 .header-section {
     color: #000000;
     font-size: 16px;
@@ -135,6 +199,15 @@ h1::after {
         margin-left: 20px;
         margin-right: 20px;
     }
+}
+
+@media screen and (min-width: 1100px) {
+    .motto-icons {
+        margin: 0;
+        justify-content: space-between;
+        flex: 0 0 550px;
+    }
+
 }
 
 .motto {
@@ -189,78 +262,3 @@ h1::after {
         padding-bottom: 20px;
     }
 }
-
-
-/* CSS bokem - zkouška znovu
-
-
-@media screen and (min-width: 1100px) {
-    .intro {
-        flex: 0 0 430px;
-    } 
-}
-@media screen and (min-width: 1100px) {
-    .section {
-        max-width: 1040px;
-        margin: 0 auto;
-        display: flex;
-        gap: 60px;
-        text-align: left;
-        padding: 0 80px;
-    }
-}
-
-
-
-
-
-
-
-@media screen and (min-width: 1100px) {
-    .motto-icons {
-        margin: 0;
-        justify-content: space-between;
-        flex: 0 0 550px;
-    }
-
-}
-
-@media screen and (min-width: 1100px) {
-    .button {
-        display: block;
-    }
-}
-
-@media screen and (min-width: 1100px) {
-    h1::after {
-        margin: 10px 0 30px 0;
-    }
-}
-@media screen and (min-width: 640px) {
-    .section + .section {
-        margin-top: 80px;
-    }
-}
-
-
-
-@media screen and (min-width: 1100px) {
-    .section-inner {
-        margin: 0;
-    }
-}
-
-
-@media screen and (min-width: 1100px) {
-    .logo {
-        width: 425px;
-    }
-}
-
-@media screen and (min-width: 1100px) {
-    .introduction {
-        max-width: 490px;
-        order: -1;
-    }
-} 
-*/
