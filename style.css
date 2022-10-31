@@ -27,32 +27,22 @@ body {
     padding: 0;
 }
 
-
-
 .section + .section {
     margin-top: 60px;
 }
-
-
 
 .section-inner {
     margin: 0 auto;
     max-width: 460px;
 }
 
-
-
 .logo {
     width: 350px;
 }
 
-
-
 .introduction {
     margin-top: 40px;
 }
-
-
 
 h1 {
     color: #000000;
@@ -95,8 +85,6 @@ h1::after {
     display: inline-block;
 }
 
-
-
 .button a:hover {
     background-color: #8B8B8B;
 }
@@ -110,11 +98,9 @@ h1::after {
 }
 
 .motto-icons {
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
     max-width: 460px;
 }
-
-
 
 .motto {
     display: flex;
@@ -131,15 +117,12 @@ h1::after {
     margin-top: 15px;
 }
 
-
-
 .motto-text {
     font-size: 13px;
     font-weight: 300;
     flex-grow: 1;
     text-align: left;
 }
-
 
 .icons {
     width: 40px;
